@@ -1,0 +1,113 @@
+header {
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: silver;
+}
+
+header > h1 {
+  font-size: 2rem;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+.nav-list {
+  width: 50%;
+}
+
+.nav-list > ul {
+  display: flex;
+  list-style-type: none;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.home {
+  height: 85vh;
+  width: 100vw;
+  background-color: deeppink;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.about {
+  height: 85vh;
+  background: palegoldenrod;
+  display: flex;
+}
+
+.half {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2%;
+}
+
+.album-list {
+  width: 100vw;
+  min-height: 85vh;
+  padding: 8%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: darksalmon;
+}
+
+.list-hold {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.album-list-title {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.album-art {
+  width: 150px;
+  height: 150px;
+}
+
+.album {
+  display: flex;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.album-info-hold {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 5%;
+  width: calc(100% - 400px);
+}
+
+.single-album {
+  width: 100vw;
+  height: 85vh;
+  background: lightblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.large-album-art {
+  width: 300px;
+  height: 300px;
+}
+
+.buy-button {
+  border-radius: 4px;
+  padding: 10px;
+  background-color: red;
+  color: white;
+  box-shadow: none;
+}

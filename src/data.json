@@ -1,0 +1,42 @@
+[
+  {
+    "id": 0,
+    "artist": "Big Thief",
+    "title": "Capacity",
+    "year": 2017,
+    "image": "https://media.pitchfork.com/photos/5929c52b13d197565213bf5e/1:1/w_320/eba85297.jpg",
+    "review": "The gentle instrumentation and powerful storytelling of this album work together to immerse you in a world that feels younger, more naive, but at the same time road-wearied and desperate for connection."
+  },
+  {
+    "id": 1,
+    "artist": "Nine Inch Nails",
+    "title": "Hesitation Marks",
+    "year": 2013,
+    "image": "https://images-na.ssl-images-amazon.com/images/I/71nsspyjvOL._SL1500_.jpg",
+    "review": "A triumphant return from one of the greats.  Driving rhythms and harsh vocals remind us of the high points from the 90s."
+  },
+  {
+    "id": 2,
+    "artist": "Modest Mouse",
+    "title": "The Lonesome Crowded West",
+    "year": 1997,
+    "image": "https://upload.wikimedia.org/wikipedia/en/f/f5/MMLonesomeCrowdedWest.jpg",
+    "review": "Who knew someone could hate shopping malls this much?  Everyone is on top of their game in this genre defining classic."
+  },
+  {
+    "id": 3,
+    "artist": "Chromatics",
+    "title": "Kill For Love",
+    "year": 2013,
+    "image": "https://upload.wikimedia.org/wikipedia/en/b/be/Chromatics_-_Kill_for_Love.png",
+    "review": "Lush electronics and hushed vocals work together to bring out a feeling of driving around LA at 2 in the morning, unsure of what is going to happen next."
+  },
+  {
+    "id": 4,
+    "artist": "King Krule",
+    "title": "Man Alive",
+    "year": 2020,
+    "image": "https://media.pitchfork.com/photos/5e4d5209f98c800008cf6620/1:1/w_600/King-Krule-Man-Alive.jpg",
+    "review": "The transition to fatherhood was always going to be difficult but I don't think anyone expected it to be this morose.  Archie Marshall is at his most tortured in some of the more desperate moments of his most recent effort."
+  }
+]
