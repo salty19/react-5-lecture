@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import {withRouter} from 'react-router-dom' 
 import albums from '../data.json'
 import './style.css'
 
@@ -12,6 +13,16 @@ class SingleAlbum extends Component {
 
   componentDidMount() {
     //Find album using match object
+    const {albumId} = this.props.match.params
+    const album = albums.find(element => element.id === +albumId) 
+
+    if(!album){
+      this.props.history.push('/404')
+    } else {
+      this.setState({
+        album: album,
+      })
+    }
   }
 
   componentDidUpdate(prevProps) {
@@ -41,4 +52,4 @@ class SingleAlbum extends Component {
     )
   }
 }
-export default SingleAlbum
+export default withRouter(SingleAlbum)
